@@ -57,3 +57,7 @@ p {
 }
 
 a { color: darkgreen; }
+
+img {
+    margin-bottom: 32px;
+}
