@@ -5,7 +5,28 @@ background-color:#31004f}
 
 section.theme-dark   { background-color: #0f172a }
 
-footer.theme-dark   { background-color: #0f172a }
+section.theme-dark h3 a:link,
+section.theme-dark h3 a:visited {
+    color: var(--purple-300) !important;
+}
+
+section.theme-dark h3 a:hover,
+section.theme-dark h3 a:active {
+    color: var(--purple-100) !important;
+}
+
+footer.theme-dark   { background-color: #31004f }
+
+footer.theme-dark a:link,
+footer.theme-dark a:visited {
+    color: var(--purple-300) !important;
+}
+
+footer.theme-dark a:hover,
+footer.theme-dark a:active {
+    color: var(--purple-100) !important;
+}
+
 
 header.theme-dark h1 { color: var(--slate-050) }
 header.theme-dark .container-btn a.btn:nth-child(2):link,
