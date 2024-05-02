@@ -3,7 +3,8 @@ nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #3100
 background-color:#31004f}
 
 
-section.theme-dark   { background-color: #0f172a }
+section.theme-dark   { background-color: #0b073e; 
+}
 
 section.theme-dark h3 a:link,
 section.theme-dark h3 a:visited {
