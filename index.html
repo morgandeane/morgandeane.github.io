@@ -8,6 +8,7 @@
     <meta name="description" content="I create digital experiences to promote products, services, and events.">
 
 	<!-- Preload large image -->
+    <link rel="preload" href="assets/img/cover_image_morgan.jpg" as="image"> 
 
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
@@ -85,7 +86,12 @@
     
 
     <div class="container-media">
-        <img src="assets/img/cover_image_morgan.jpg" alt="Morgan Deane">
+        <picture>
+            <!-- Image for mobile devices -->
+            <source media="(max-width: 768px)" srcset="assets/img/cover_image_morgan_mob.jpg">
+            <!-- Image for desktops -->
+            <img src="assets/img/cover_image_morgan.jpg" alt="Morgan Deane">
+          </picture>
     </div>
 
     <div class="container-overlay"></div>
